@@ -30,7 +30,7 @@ class OTP:
         print("To change email address, press 2")
         print("------------------------------------------------")
 
-        for tries in range(self.__no_of_tries):
+        for _ in range(self.__no_of_tries):
             input_otp = input("Please enter OTP or Above options: ")        
 
             if input_otp == "1":
